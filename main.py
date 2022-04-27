@@ -2,6 +2,7 @@ import torch
 from util.dataloader import DataLoader
 from models.FreqPred3 import Freqpred
 import numpy as np
+# import
 
 ''' define cpu or gpu '''
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
